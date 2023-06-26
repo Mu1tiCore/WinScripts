@@ -1,0 +1,1 @@
+﻿Get-ChildItem "C:\Users\*\AppData\Local\1C\1Cv82\*","C:\Users\*\AppData\Roaming\1C\1Cv82\*" | Where {$_.Name -as [guid]} |Remove-Item -Force -Recurse
